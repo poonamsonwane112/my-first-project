@@ -1,0 +1,14 @@
+<h1>Registeration Form</h1>
+
+
+<form #data="ngForm" (ngSubmit)="save(data)">
+
+<label for="">username</label>
+<input type="text" name="username" ngModel><br><br >
+<label for="">password</label>
+<input type="password" name="password" ngModel><br><br>
+<input type="submit" id="singup" >
+
+</form>
+<h1>{{username}} {{password}}</h1>
+<p>{{msg.message}}</p>
